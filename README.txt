@@ -26,7 +26,7 @@ Este proyecto es una solución desarrollada para la prueba técnica, utilizando 
    cd proyecto-citas-medicas
    ```
 
-2. Crear el archivo `.env` en la raíz con el siguiente contenido:
+2. Crear el archivo `.env` en la raíz con las sgtes credenciales:
    ```
    DB_HOST=db
    DB_NAME=citasdb
@@ -43,11 +43,10 @@ Este proyecto es una solución desarrollada para la prueba técnica, utilizando 
 4. Acceder a la aplicación:
    - Abrir [http://localhost:8080](http://localhost:8080) en el navegador
 
-## 🗄️ Base de datos
+## Base de datos
 
    - En el repositorio se encuentra una carpeta llamada sql donde se encuentra script para generar la tabla
 
-## 📑 Notas
 
 - Todas las operaciones sobre la base de datos utilizan consultas preparadas para garantizar la seguridad
 - La validación del formulario es doble: cliente (HTML5) y servidor (PHP)
