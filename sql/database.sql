@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS citas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre_paciente VARCHAR(100) NOT NULL,
-    especialidad ENUM('Medicina General', 'Pediatría', 'Dermatología') NOT NULL,
+    especialidad VARCHAR(20) NOT NULL,
     fecha_cita DATE NOT NULL,
     hora_cita TIME NOT NULL,
     fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
